@@ -6,3 +6,7 @@ to boot into Windows, but at least it's a one time job.
 
 Use my termfpga programme to test this.
 
+I also connected up the DIP switches to test them. SW1 has to be switched on for 
+anything to get echoed. The FTDI will buffer stuff while SW1 is off.
+
+
