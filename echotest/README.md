@@ -1,4 +1,5 @@
-This is a simple project which reads everything from the FTDI chip and echoes it back.
+This is a simple project which reads everything from the FTDI chip and echoes it back. It
+also displays each character in binary on the LEDs.
 
 You'll need to programme the EEPROM in the FTDI chip so that channel B is configured
 as an FT245 FIFO. I used the Windows FT_PROG programme, which was a pain because I had
