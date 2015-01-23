@@ -9,8 +9,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="744.09448819"
-   height="1052.3622047"
+   width="700"
+   height="700"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
@@ -24,16 +24,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.85365854"
-     inkscape:cx="329.92611"
-     inkscape:cy="741.70325"
+     inkscape:zoom="1"
+     inkscape:cx="229.2561"
+     inkscape:cy="315.33731"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="false"
-     inkscape:window-width="1397"
+     inkscape:window-width="1095"
      inkscape:window-height="1148"
-     inkscape:window-x="63"
-     inkscape:window-y="24"
+     inkscape:window-x="115"
+     inkscape:window-y="37"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata7">
@@ -51,14 +51,15 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Layer"
-     style="display:inline">
+     style="display:inline"
+     transform="translate(0,-352.36218)">
     <rect
        style="fill:#ffffff;stroke:#000000;stroke-width:1;stroke-opacity:1"
        id="rect3904"
        width="563.58417"
        height="383.84198"
-       x="86.511436"
-       y="214.96509"
+       x="25.511436"
+       y="503.96509"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
@@ -67,8 +68,8 @@
        id="rect3906"
        width="146.40846"
        height="35.320328"
-       x="158.79906"
-       y="220.76782"
+       x="97.799057"
+       y="509.76782"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
@@ -80,13 +81,13 @@
        sodipodi:cy="229.17064"
        sodipodi:rx="4.8423033"
        sodipodi:ry="4.8423033"
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
-       transform="translate(0.14241801,0)"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
+       transform="translate(-60.857582,289)"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
        sodipodi:ry="4.8423033"
        sodipodi:rx="4.8423033"
        sodipodi:cy="229.17064"
@@ -94,12 +95,12 @@
        id="path3910"
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        sodipodi:type="arc"
-       transform="translate(18.941943,0)"
+       transform="translate(-42.058057,289)"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       transform="translate(37.741478,0)"
+       transform="translate(-23.258522,289)"
        sodipodi:type="arc"
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="path3912"
@@ -107,12 +108,12 @@
        sodipodi:cy="229.17064"
        sodipodi:rx="4.8423033"
        sodipodi:ry="4.8423033"
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
        sodipodi:ry="4.8423033"
        sodipodi:rx="4.8423033"
        sodipodi:cy="229.17064"
@@ -120,12 +121,12 @@
        id="path3914"
        style="fill:#ff0000;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        sodipodi:type="arc"
-       transform="translate(56.540993,0)"
+       transform="translate(-4.459007,289)"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       transform="translate(75.340522,0)"
+       transform="translate(14.340522,289)"
        sodipodi:type="arc"
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="path3916"
@@ -133,12 +134,12 @@
        sodipodi:cy="229.17064"
        sodipodi:rx="4.8423033"
        sodipodi:ry="4.8423033"
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
        sodipodi:ry="4.8423033"
        sodipodi:rx="4.8423033"
        sodipodi:cy="229.17064"
@@ -146,12 +147,12 @@
        id="path3918"
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        sodipodi:type="arc"
-       transform="translate(94.140058,0)"
+       transform="translate(33.140058,289)"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       transform="translate(112.93958,0)"
+       transform="translate(51.93958,289)"
        sodipodi:type="arc"
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="path3920"
@@ -159,12 +160,12 @@
        sodipodi:cy="229.17064"
        sodipodi:rx="4.8423033"
        sodipodi:ry="4.8423033"
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
        sodipodi:ry="4.8423033"
        sodipodi:rx="4.8423033"
        sodipodi:cy="229.17064"
@@ -172,12 +173,12 @@
        id="path3922"
        style="fill:#000000;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        sodipodi:type="arc"
-       transform="translate(131.73913,0)"
+       transform="translate(70.73913,289)"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
        sodipodi:ry="4.8423033"
        sodipodi:rx="4.8423033"
        sodipodi:cy="229.17064"
@@ -185,12 +186,12 @@
        id="path3936"
        style="fill:#b3b3b3;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        sodipodi:type="arc"
-       transform="translate(0.14241801,18.657109)"
+       transform="translate(-60.857582,307.65711)"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       transform="translate(18.941943,18.657109)"
+       transform="translate(-42.058057,307.65711)"
        sodipodi:type="arc"
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="path3938"
@@ -198,12 +199,12 @@
        sodipodi:cy="229.17064"
        sodipodi:rx="4.8423033"
        sodipodi:ry="4.8423033"
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
        sodipodi:ry="4.8423033"
        sodipodi:rx="4.8423033"
        sodipodi:cy="229.17064"
@@ -211,12 +212,12 @@
        id="path3940"
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        sodipodi:type="arc"
-       transform="translate(37.741478,18.657109)"
+       transform="translate(-23.258522,307.65711)"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       transform="translate(56.540993,18.657109)"
+       transform="translate(-4.459007,307.65711)"
        sodipodi:type="arc"
        style="fill:#000000;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="path3942"
@@ -224,12 +225,12 @@
        sodipodi:cy="229.17064"
        sodipodi:rx="4.8423033"
        sodipodi:ry="4.8423033"
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
        sodipodi:ry="4.8423033"
        sodipodi:rx="4.8423033"
        sodipodi:cy="229.17064"
@@ -237,12 +238,12 @@
        id="path3944"
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        sodipodi:type="arc"
-       transform="translate(75.340522,18.657109)"
+       transform="translate(14.340522,307.65711)"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       transform="translate(94.140058,18.657109)"
+       transform="translate(33.140058,307.65711)"
        sodipodi:type="arc"
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="path3946"
@@ -250,12 +251,12 @@
        sodipodi:cy="229.17064"
        sodipodi:rx="4.8423033"
        sodipodi:ry="4.8423033"
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
        sodipodi:ry="4.8423033"
        sodipodi:rx="4.8423033"
        sodipodi:cy="229.17064"
@@ -263,12 +264,12 @@
        id="path3948"
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        sodipodi:type="arc"
-       transform="translate(112.93958,18.657109)"
+       transform="translate(51.93958,307.65711)"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       transform="translate(131.73913,18.657109)"
+       transform="translate(70.73913,307.65711)"
        sodipodi:type="arc"
        style="fill:#ff0000;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="path3950"
@@ -276,13 +277,13 @@
        sodipodi:cy="229.17064"
        sodipodi:rx="4.8423033"
        sodipodi:ry="4.8423033"
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <rect
-       y="220.76782"
-       x="309.05289"
+       y="509.76782"
+       x="248.05289"
        height="35.320328"
        width="146.40846"
        id="rect3975"
@@ -291,7 +292,7 @@
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
        sodipodi:ry="4.8423033"
        sodipodi:rx="4.8423033"
        sodipodi:cy="229.17064"
@@ -299,12 +300,12 @@
        id="path3979"
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        sodipodi:type="arc"
-       transform="translate(150.39624,0)"
+       transform="translate(89.39624,289)"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       transform="translate(169.19576,0)"
+       transform="translate(108.19576,289)"
        sodipodi:type="arc"
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="path3981"
@@ -312,12 +313,12 @@
        sodipodi:cy="229.17064"
        sodipodi:rx="4.8423033"
        sodipodi:ry="4.8423033"
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
        sodipodi:ry="4.8423033"
        sodipodi:rx="4.8423033"
        sodipodi:cy="229.17064"
@@ -325,12 +326,12 @@
        id="path3983"
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        sodipodi:type="arc"
-       transform="translate(187.9953,0)"
+       transform="translate(126.9953,289)"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       transform="translate(206.79481,0)"
+       transform="translate(145.79481,289)"
        sodipodi:type="arc"
        style="fill:#ff0000;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="path3985"
@@ -338,12 +339,12 @@
        sodipodi:cy="229.17064"
        sodipodi:rx="4.8423033"
        sodipodi:ry="4.8423033"
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
        sodipodi:ry="4.8423033"
        sodipodi:rx="4.8423033"
        sodipodi:cy="229.17064"
@@ -351,12 +352,12 @@
        id="path3987"
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        sodipodi:type="arc"
-       transform="translate(225.59434,0)"
+       transform="translate(164.59434,289)"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       transform="translate(244.39388,0)"
+       transform="translate(183.39388,289)"
        sodipodi:type="arc"
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="path3989"
@@ -364,12 +365,12 @@
        sodipodi:cy="229.17064"
        sodipodi:rx="4.8423033"
        sodipodi:ry="4.8423033"
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
        sodipodi:ry="4.8423033"
        sodipodi:rx="4.8423033"
        sodipodi:cy="229.17064"
@@ -377,12 +378,12 @@
        id="path3991"
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        sodipodi:type="arc"
-       transform="translate(263.1934,0)"
+       transform="translate(202.1934,289)"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       transform="translate(281.99295,0)"
+       transform="translate(220.99295,289)"
        sodipodi:type="arc"
        style="fill:#000000;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="path3993"
@@ -390,7 +391,7 @@
        sodipodi:cy="229.17064"
        sodipodi:rx="4.8423033"
        sodipodi:ry="4.8423033"
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
@@ -402,13 +403,13 @@
        sodipodi:cy="229.17064"
        sodipodi:rx="4.8423033"
        sodipodi:ry="4.8423033"
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
-       transform="translate(150.39624,18.657109)"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
+       transform="translate(89.39624,307.65711)"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
        sodipodi:ry="4.8423033"
        sodipodi:rx="4.8423033"
        sodipodi:cy="229.17064"
@@ -416,12 +417,12 @@
        id="path3999"
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        sodipodi:type="arc"
-       transform="translate(169.19576,18.657109)"
+       transform="translate(108.19576,307.65711)"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       transform="translate(187.9953,18.657109)"
+       transform="translate(126.9953,307.65711)"
        sodipodi:type="arc"
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="path4001"
@@ -429,12 +430,12 @@
        sodipodi:cy="229.17064"
        sodipodi:rx="4.8423033"
        sodipodi:ry="4.8423033"
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
        sodipodi:ry="4.8423033"
        sodipodi:rx="4.8423033"
        sodipodi:cy="229.17064"
@@ -442,12 +443,12 @@
        id="path4003"
        style="fill:#000000;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        sodipodi:type="arc"
-       transform="translate(206.79481,18.657109)"
+       transform="translate(145.79481,307.65711)"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       transform="translate(225.59434,18.657109)"
+       transform="translate(164.59434,307.65711)"
        sodipodi:type="arc"
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="path4005"
@@ -455,12 +456,12 @@
        sodipodi:cy="229.17064"
        sodipodi:rx="4.8423033"
        sodipodi:ry="4.8423033"
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
        sodipodi:ry="4.8423033"
        sodipodi:rx="4.8423033"
        sodipodi:cy="229.17064"
@@ -468,12 +469,12 @@
        id="path4007"
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        sodipodi:type="arc"
-       transform="translate(244.39388,18.657109)"
+       transform="translate(183.39388,307.65711)"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       transform="translate(263.1934,18.657109)"
+       transform="translate(202.1934,307.65711)"
        sodipodi:type="arc"
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="path4009"
@@ -481,12 +482,12 @@
        sodipodi:cy="229.17064"
        sodipodi:rx="4.8423033"
        sodipodi:ry="4.8423033"
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
        sodipodi:ry="4.8423033"
        sodipodi:rx="4.8423033"
        sodipodi:cy="229.17064"
@@ -494,7 +495,7 @@
        id="path4011"
        style="fill:#ff0000;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        sodipodi:type="arc"
-       transform="translate(281.99295,18.657109)"
+       transform="translate(220.99295,307.65711)"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
@@ -503,8 +504,8 @@
        id="rect4015"
        width="146.40846"
        height="35.320328"
-       x="459.16428"
-       y="220.76782"
+       x="398.16428"
+       y="509.76782"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
@@ -516,13 +517,13 @@
        sodipodi:cy="229.17064"
        sodipodi:rx="4.8423033"
        sodipodi:ry="4.8423033"
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
-       transform="translate(300.50764,0)"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
+       transform="translate(239.50764,289)"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
        sodipodi:ry="4.8423033"
        sodipodi:rx="4.8423033"
        sodipodi:cy="229.17064"
@@ -530,12 +531,12 @@
        id="path4021"
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        sodipodi:type="arc"
-       transform="translate(319.30716,0)"
+       transform="translate(258.30716,289)"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       transform="translate(338.1067,0)"
+       transform="translate(277.1067,289)"
        sodipodi:type="arc"
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="path4023"
@@ -543,12 +544,12 @@
        sodipodi:cy="229.17064"
        sodipodi:rx="4.8423033"
        sodipodi:ry="4.8423033"
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
        sodipodi:ry="4.8423033"
        sodipodi:rx="4.8423033"
        sodipodi:cy="229.17064"
@@ -556,12 +557,12 @@
        id="path4025"
        style="fill:#ff0000;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        sodipodi:type="arc"
-       transform="translate(356.90621,0)"
+       transform="translate(295.90621,289)"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       transform="translate(375.70574,0)"
+       transform="translate(314.70574,289)"
        sodipodi:type="arc"
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="path4027"
@@ -569,12 +570,12 @@
        sodipodi:cy="229.17064"
        sodipodi:rx="4.8423033"
        sodipodi:ry="4.8423033"
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
        sodipodi:ry="4.8423033"
        sodipodi:rx="4.8423033"
        sodipodi:cy="229.17064"
@@ -582,12 +583,12 @@
        id="path4029"
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        sodipodi:type="arc"
-       transform="translate(394.50528,0)"
+       transform="translate(333.50528,289)"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       transform="translate(413.3048,0)"
+       transform="translate(352.3048,289)"
        sodipodi:type="arc"
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="path4031"
@@ -595,12 +596,12 @@
        sodipodi:cy="229.17064"
        sodipodi:rx="4.8423033"
        sodipodi:ry="4.8423033"
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
        sodipodi:ry="4.8423033"
        sodipodi:rx="4.8423033"
        sodipodi:cy="229.17064"
@@ -608,12 +609,12 @@
        id="path4033"
        style="fill:#000000;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        sodipodi:type="arc"
-       transform="translate(432.10435,0)"
+       transform="translate(371.10435,289)"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
        sodipodi:ry="4.8423033"
        sodipodi:rx="4.8423033"
        sodipodi:cy="229.17064"
@@ -621,12 +622,12 @@
        id="path4037"
        style="fill:#b3b3b3;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        sodipodi:type="arc"
-       transform="translate(300.50764,18.657109)"
+       transform="translate(239.50764,307.65711)"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       transform="translate(319.30716,18.657109)"
+       transform="translate(258.30716,307.65711)"
        sodipodi:type="arc"
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="path4039"
@@ -634,12 +635,12 @@
        sodipodi:cy="229.17064"
        sodipodi:rx="4.8423033"
        sodipodi:ry="4.8423033"
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
        sodipodi:ry="4.8423033"
        sodipodi:rx="4.8423033"
        sodipodi:cy="229.17064"
@@ -647,12 +648,12 @@
        id="path4041"
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        sodipodi:type="arc"
-       transform="translate(338.1067,18.657109)"
+       transform="translate(277.1067,307.65711)"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       transform="translate(356.90621,18.657109)"
+       transform="translate(295.90621,307.65711)"
        sodipodi:type="arc"
        style="fill:#000000;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="path4043"
@@ -660,12 +661,12 @@
        sodipodi:cy="229.17064"
        sodipodi:rx="4.8423033"
        sodipodi:ry="4.8423033"
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
        sodipodi:ry="4.8423033"
        sodipodi:rx="4.8423033"
        sodipodi:cy="229.17064"
@@ -673,12 +674,12 @@
        id="path4045"
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        sodipodi:type="arc"
-       transform="translate(375.70574,18.657109)"
+       transform="translate(314.70574,307.65711)"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       transform="translate(394.50528,18.657109)"
+       transform="translate(333.50528,307.65711)"
        sodipodi:type="arc"
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="path4047"
@@ -686,12 +687,12 @@
        sodipodi:cy="229.17064"
        sodipodi:rx="4.8423033"
        sodipodi:ry="4.8423033"
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
        sodipodi:ry="4.8423033"
        sodipodi:rx="4.8423033"
        sodipodi:cy="229.17064"
@@ -699,12 +700,12 @@
        id="path4049"
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        sodipodi:type="arc"
-       transform="translate(413.3048,18.657109)"
+       transform="translate(352.3048,307.65711)"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       transform="translate(432.10435,18.657109)"
+       transform="translate(371.10435,307.65711)"
        sodipodi:type="arc"
        style="fill:#0000ff;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="path4051"
@@ -712,7 +713,7 @@
        sodipodi:cy="229.17064"
        sodipodi:rx="4.8423033"
        sodipodi:ry="4.8423033"
-       d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+       d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
@@ -720,7 +721,8 @@
        id="g4278"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
-       inkscape:export-ydpi="154.3">
+       inkscape:export-ydpi="154.3"
+       transform="translate(-61,289)">
       <rect
          style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
          id="rect4055"
@@ -737,9 +739,9 @@
          sodipodi:cy="229.17064"
          sodipodi:rx="4.8423033"
          sodipodi:ry="4.8423033"
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z" />
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z" />
       <path
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
          sodipodi:ry="4.8423033"
          sodipodi:rx="4.8423033"
          sodipodi:cy="229.17064"
@@ -757,9 +759,9 @@
          sodipodi:cy="229.17064"
          sodipodi:rx="4.8423033"
          sodipodi:ry="4.8423033"
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z" />
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z" />
       <path
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
          sodipodi:ry="4.8423033"
          sodipodi:rx="4.8423033"
          sodipodi:cy="229.17064"
@@ -777,9 +779,9 @@
          sodipodi:cy="229.17064"
          sodipodi:rx="4.8423033"
          sodipodi:ry="4.8423033"
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z" />
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z" />
       <path
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
          sodipodi:ry="4.8423033"
          sodipodi:rx="4.8423033"
          sodipodi:cy="229.17064"
@@ -797,9 +799,9 @@
          sodipodi:cy="229.17064"
          sodipodi:rx="4.8423033"
          sodipodi:ry="4.8423033"
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z" />
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z" />
       <path
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
          sodipodi:ry="4.8423033"
          sodipodi:rx="4.8423033"
          sodipodi:cy="229.17064"
@@ -810,7 +812,7 @@
          transform="translate(432.10435,337.96428)" />
       <path
          transform="translate(300.50764,356.62139)"
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
          sodipodi:ry="4.8423033"
          sodipodi:rx="4.8423033"
          sodipodi:cy="229.17064"
@@ -827,9 +829,9 @@
          sodipodi:cy="229.17064"
          sodipodi:rx="4.8423033"
          sodipodi:ry="4.8423033"
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z" />
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z" />
       <path
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
          sodipodi:ry="4.8423033"
          sodipodi:rx="4.8423033"
          sodipodi:cy="229.17064"
@@ -847,9 +849,9 @@
          sodipodi:cy="229.17064"
          sodipodi:rx="4.8423033"
          sodipodi:ry="4.8423033"
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z" />
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z" />
       <path
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
          sodipodi:ry="4.8423033"
          sodipodi:rx="4.8423033"
          sodipodi:cy="229.17064"
@@ -867,9 +869,9 @@
          sodipodi:cy="229.17064"
          sodipodi:rx="4.8423033"
          sodipodi:ry="4.8423033"
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z" />
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z" />
       <path
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
          sodipodi:ry="4.8423033"
          sodipodi:rx="4.8423033"
          sodipodi:cy="229.17064"
@@ -887,7 +889,7 @@
          sodipodi:cy="229.17064"
          sodipodi:rx="4.8423033"
          sodipodi:ry="4.8423033"
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z" />
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z" />
       <rect
          y="558.73212"
          x="308.91046"
@@ -897,7 +899,7 @@
          style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
       <path
          transform="translate(150.25382,337.96428)"
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
          sodipodi:ry="4.8423033"
          sodipodi:rx="4.8423033"
          sodipodi:cy="229.17064"
@@ -914,9 +916,9 @@
          sodipodi:cy="229.17064"
          sodipodi:rx="4.8423033"
          sodipodi:ry="4.8423033"
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z" />
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z" />
       <path
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
          sodipodi:ry="4.8423033"
          sodipodi:rx="4.8423033"
          sodipodi:cy="229.17064"
@@ -934,9 +936,9 @@
          sodipodi:cy="229.17064"
          sodipodi:rx="4.8423033"
          sodipodi:ry="4.8423033"
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z" />
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z" />
       <path
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
          sodipodi:ry="4.8423033"
          sodipodi:rx="4.8423033"
          sodipodi:cy="229.17064"
@@ -954,9 +956,9 @@
          sodipodi:cy="229.17064"
          sodipodi:rx="4.8423033"
          sodipodi:ry="4.8423033"
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z" />
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z" />
       <path
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
          sodipodi:ry="4.8423033"
          sodipodi:rx="4.8423033"
          sodipodi:cy="229.17064"
@@ -974,7 +976,7 @@
          sodipodi:cy="229.17064"
          sodipodi:rx="4.8423033"
          sodipodi:ry="4.8423033"
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z" />
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z" />
       <path
          transform="translate(150.25382,356.62139)"
          sodipodi:type="arc"
@@ -984,9 +986,9 @@
          sodipodi:cy="229.17064"
          sodipodi:rx="4.8423033"
          sodipodi:ry="4.8423033"
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z" />
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z" />
       <path
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
          sodipodi:ry="4.8423033"
          sodipodi:rx="4.8423033"
          sodipodi:cy="229.17064"
@@ -1004,9 +1006,9 @@
          sodipodi:cy="229.17064"
          sodipodi:rx="4.8423033"
          sodipodi:ry="4.8423033"
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z" />
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z" />
       <path
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
          sodipodi:ry="4.8423033"
          sodipodi:rx="4.8423033"
          sodipodi:cy="229.17064"
@@ -1024,9 +1026,9 @@
          sodipodi:cy="229.17064"
          sodipodi:rx="4.8423033"
          sodipodi:ry="4.8423033"
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z" />
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z" />
       <path
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
          sodipodi:ry="4.8423033"
          sodipodi:rx="4.8423033"
          sodipodi:cy="229.17064"
@@ -1044,9 +1046,9 @@
          sodipodi:cy="229.17064"
          sodipodi:rx="4.8423033"
          sodipodi:ry="4.8423033"
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z" />
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z" />
       <path
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
          sodipodi:ry="4.8423033"
          sodipodi:rx="4.8423033"
          sodipodi:cy="229.17064"
@@ -1078,9 +1080,9 @@
          sodipodi:cy="229.17064"
          sodipodi:rx="4.8423033"
          sodipodi:ry="4.8423033"
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z" />
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z" />
       <path
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
          sodipodi:ry="4.8423033"
          sodipodi:rx="4.8423033"
          sodipodi:cy="229.17064"
@@ -1098,9 +1100,9 @@
          sodipodi:cy="229.17064"
          sodipodi:rx="4.8423033"
          sodipodi:ry="4.8423033"
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z" />
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z" />
       <path
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
          sodipodi:ry="4.8423033"
          sodipodi:rx="4.8423033"
          sodipodi:cy="229.17064"
@@ -1118,9 +1120,9 @@
          sodipodi:cy="229.17064"
          sodipodi:rx="4.8423033"
          sodipodi:ry="4.8423033"
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z" />
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z" />
       <path
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
          sodipodi:ry="4.8423033"
          sodipodi:rx="4.8423033"
          sodipodi:cy="229.17064"
@@ -1138,9 +1140,9 @@
          sodipodi:cy="229.17064"
          sodipodi:rx="4.8423033"
          sodipodi:ry="4.8423033"
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z" />
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z" />
       <path
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
          sodipodi:ry="4.8423033"
          sodipodi:rx="4.8423033"
          sodipodi:cy="229.17064"
@@ -1151,7 +1153,7 @@
          transform="translate(131.59671,356.62139)" />
       <path
          transform="translate(-8.7e-7,337.96428)"
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
          sodipodi:ry="4.8423033"
          sodipodi:rx="4.8423033"
          sodipodi:cy="229.17064"
@@ -1168,9 +1170,9 @@
          sodipodi:cy="229.17064"
          sodipodi:rx="4.8423033"
          sodipodi:ry="4.8423033"
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z" />
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z" />
       <path
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
          sodipodi:ry="4.8423033"
          sodipodi:rx="4.8423033"
          sodipodi:cy="229.17064"
@@ -1188,9 +1190,9 @@
          sodipodi:cy="229.17064"
          sodipodi:rx="4.8423033"
          sodipodi:ry="4.8423033"
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z" />
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z" />
       <path
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
          sodipodi:ry="4.8423033"
          sodipodi:rx="4.8423033"
          sodipodi:cy="229.17064"
@@ -1208,9 +1210,9 @@
          sodipodi:cy="229.17064"
          sodipodi:rx="4.8423033"
          sodipodi:ry="4.8423033"
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z" />
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z" />
       <path
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z"
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z"
          sodipodi:ry="4.8423033"
          sodipodi:rx="4.8423033"
          sodipodi:cy="229.17064"
@@ -1228,7 +1230,7 @@
          sodipodi:cy="229.17064"
          sodipodi:rx="4.8423033"
          sodipodi:ry="4.8423033"
-         d="m 170.90482,229.17064 a 4.8423033,4.8423033 0 1 1 -9.68461,0 4.8423033,4.8423033 0 1 1 9.68461,0 z" />
+         d="m 170.90482,229.17064 c 0,2.67433 -2.16797,4.8423 -4.8423,4.8423 -2.67433,0 -4.84231,-2.16797 -4.84231,-4.8423 0,-2.67433 2.16798,-4.8423 4.84231,-4.8423 2.67433,0 4.8423,2.16797 4.8423,4.8423 z" />
       <rect
          y="558.73212"
          x="158.65663"
@@ -1245,12 +1247,13 @@
        sodipodi:cy="235.43715"
        sodipodi:rx="8.117979"
        sodipodi:ry="8.117979"
-       d="m 135.01481,235.43715 a 8.117979,8.117979 0 1 1 -16.23596,0 8.117979,8.117979 0 1 1 16.23596,0 z"
+       d="m 135.01481,235.43715 c 0,4.48344 -3.63455,8.11798 -8.11798,8.11798 -4.48344,0 -8.11798,-3.63454 -8.11798,-8.11798 0,-4.48344 3.63454,-8.11798 8.11798,-8.11798 4.48343,0 8.11798,3.63454 8.11798,8.11798 z"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
-       inkscape:export-ydpi="154.3" />
+       inkscape:export-ydpi="154.3"
+       transform="translate(-61,289)" />
     <path
-       transform="translate(0.28484079,341.80965)"
+       transform="translate(-60.715159,630.80965)"
        sodipodi:type="arc"
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="path4326-5"
@@ -1258,12 +1261,12 @@
        sodipodi:cy="235.43715"
        sodipodi:rx="8.117979"
        sodipodi:ry="8.117979"
-       d="m 135.01481,235.43715 a 8.117979,8.117979 0 1 1 -16.23596,0 8.117979,8.117979 0 1 1 16.23596,0 z"
+       d="m 135.01481,235.43715 c 0,4.48344 -3.63455,8.11798 -8.11798,8.11798 -4.48344,0 -8.11798,-3.63454 -8.11798,-8.11798 0,-4.48344 3.63454,-8.11798 8.11798,-8.11798 4.48343,0 8.11798,3.63454 8.11798,8.11798 z"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       transform="translate(499.32691,341.80964)"
+       transform="translate(438.32691,630.80964)"
        sodipodi:type="arc"
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="path4326-4"
@@ -1271,12 +1274,12 @@
        sodipodi:cy="235.43715"
        sodipodi:rx="8.117979"
        sodipodi:ry="8.117979"
-       d="m 135.01481,235.43715 a 8.117979,8.117979 0 1 1 -16.23596,0 8.117979,8.117979 0 1 1 16.23596,0 z"
+       d="m 135.01481,235.43715 c 0,4.48344 -3.63455,8.11798 -8.11798,8.11798 -4.48344,0 -8.11798,-3.63454 -8.11798,-8.11798 0,-4.48344 3.63454,-8.11798 8.11798,-8.11798 4.48343,0 8.11798,3.63454 8.11798,8.11798 z"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       transform="translate(498.89965,0.14242574)"
+       transform="translate(437.89965,289.14243)"
        sodipodi:type="arc"
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="path4326-8"
@@ -1284,7 +1287,7 @@
        sodipodi:cy="235.43715"
        sodipodi:rx="8.117979"
        sodipodi:ry="8.117979"
-       d="m 135.01481,235.43715 a 8.117979,8.117979 0 1 1 -16.23596,0 8.117979,8.117979 0 1 1 16.23596,0 z"
+       d="m 135.01481,235.43715 c 0,4.48344 -3.63455,8.11798 -8.11798,8.11798 -4.48344,0 -8.11798,-3.63454 -8.11798,-8.11798 0,-4.48344 3.63454,-8.11798 8.11798,-8.11798 4.48343,0 8.11798,3.63454 8.11798,8.11798 z"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
@@ -1293,8 +1296,8 @@
        id="rect4360"
        width="84.740303"
        height="88.443245"
-       x="556.15277"
-       y="264.49097"
+       x="495.15277"
+       y="553.49097"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
@@ -1303,8 +1306,8 @@
        id="rect4362"
        width="65.940773"
        height="56.113747"
-       x="592.04279"
-       y="379.28204"
+       x="531.04279"
+       y="668.28204"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
@@ -1313,8 +1316,8 @@
        id="rect4368"
        width="65.08625"
        height="107.10035"
-       x="82.675209"
-       y="252.2428"
+       x="21.675209"
+       y="541.2428"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
@@ -1323,8 +1326,8 @@
        id="rect4368-7"
        width="65.08625"
        height="107.10035"
-       x="82.675209"
-       y="454.33774"
+       x="21.675209"
+       y="743.33777"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
@@ -1333,8 +1336,8 @@
        id="rect4407"
        width="126.18472"
        height="125.3302"
-       x="198.39201"
-       y="336.98312"
+       x="137.39201"
+       y="625.98315"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
@@ -1343,8 +1346,8 @@
        id="rect4409"
        width="165.49283"
        height="70.783081"
-       x="349.92761"
-       y="290.69638"
+       x="288.92761"
+       y="579.69641"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
@@ -1353,8 +1356,8 @@
        id="rect4411"
        width="75.767799"
        height="75.910225"
-       x="469.13373"
-       y="386.26065"
+       x="408.13373"
+       y="675.26062"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
@@ -1363,8 +1366,8 @@
        id="rect4413"
        width="19.511633"
        height="23.926674"
-       x="555.72552"
-       y="473.70694"
+       x="494.72552"
+       y="762.70691"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
@@ -1373,8 +1376,8 @@
        id="rect4415"
        width="26.205406"
        height="48.992714"
-       x="521.11725"
-       y="501.76382"
+       x="460.11725"
+       y="790.76379"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
@@ -1383,8 +1386,8 @@
        id="rect4417"
        width="37.59906"
        height="37.456638"
-       x="376.41785"
-       y="505.89404"
+       x="315.41785"
+       y="794.89404"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
@@ -1396,8 +1399,8 @@
        sodipodi:cy="524.2663"
        sodipodi:rx="9.8270273"
        sodipodi:ry="9.8270273"
-       d="m 405.18683,524.2663 a 9.8270273,9.8270273 0 1 1 -19.65406,0 9.8270273,9.8270273 0 1 1 19.65406,0 z"
-       transform="matrix(0.97101449,0,0,0.95652174,11.317284,23.079028)"
+       d="m 405.18683,524.2663 c 0,5.42731 -4.39971,9.82702 -9.82703,9.82702 -5.42732,0 -9.82703,-4.39971 -9.82703,-9.82702 0,-5.42732 4.39971,-9.82703 9.82703,-9.82703 5.42732,0 9.82703,4.39971 9.82703,9.82703 z"
+       transform="matrix(0.97101449,0,0,0.95652174,-49.682716,312.07903)"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
@@ -1406,8 +1409,8 @@
        id="rect4421"
        width="48.707874"
        height="26.775087"
-       x="314.0376"
-       y="504.32739"
+       x="253.0376"
+       y="793.32739"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
@@ -1416,14 +1419,14 @@
        id="rect4423"
        width="37.8839"
        height="22.929729"
-       x="272.5932"
-       y="481.68253"
+       x="211.5932"
+       y="770.6825"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <rect
-       y="508.88489"
-       x="272.5932"
+       y="797.88489"
+       x="211.5932"
        height="22.929729"
        width="37.8839"
        id="rect4425"
@@ -1436,8 +1439,8 @@
        id="rect4427"
        width="34.750645"
        height="37.456638"
-       x="220.3248"
-       y="513.58472"
+       x="159.3248"
+       y="802.58472"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
@@ -1446,8 +1449,8 @@
        id="rect4429"
        width="15.808696"
        height="15.808696"
-       x="209.07356"
-       y="485.24304"
+       x="148.07356"
+       y="774.24304"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
@@ -1456,8 +1459,8 @@
        id="rect4431"
        width="12.248178"
        height="21.932785"
-       x="459.73395"
-       y="518.14221"
+       x="398.73395"
+       y="807.14221"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
@@ -1466,16 +1469,16 @@
        id="rect4433"
        width="39.877792"
        height="40.589893"
-       x="388.23877"
-       y="458.8952"
+       x="327.23877"
+       y="747.8952"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <text
        xml:space="preserve"
        style="font-size:16.54105186px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
-       x="333.57553"
-       y="390.6474"
+       x="272.57553"
+       y="679.6474"
        id="text4445"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
@@ -1483,15 +1486,16 @@
        inkscape:export-ydpi="154.3"><tspan
          sodipodi:role="line"
          id="tspan4447"
-         x="333.57553"
-         y="390.6474"
+         x="272.57553"
+         y="679.6474"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Century Schoolbook;-inkscape-font-specification:Century Schoolbook">miniSpartan6+</tspan></text>
     <g
        id="g4501"
        style="fill:#d4ff2a"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
-       inkscape:export-ydpi="154.3">
+       inkscape:export-ydpi="154.3"
+       transform="translate(-61,289)">
       <rect
          y="352.05334"
          x="535.57739"
@@ -1554,8 +1558,8 @@
        id="rect4449-1"
        width="9.4189482"
        height="5.9118934"
-       x="434.46381"
-       y="-581.87207"
+       x="723.46381"
+       y="-520.87207"
        transform="matrix(0,1,-1,0,0,0)"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
@@ -1564,7 +1568,8 @@
        id="g4513"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
-       inkscape:export-ydpi="154.3">
+       inkscape:export-ydpi="154.3"
+       transform="translate(-61,289)">
       <rect
          y="382.84256"
          x="87.161453"
@@ -1583,8 +1588,8 @@
     <text
        xml:space="preserve"
        style="font-size:10.35346603px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
-       x="-357.508"
-       y="527.05164"
+       x="-646.508"
+       y="466.05164"
        id="text3160"
        sodipodi:linespacing="125%"
        transform="matrix(0,-1,1,0,0,0)"
@@ -1593,14 +1598,14 @@
        inkscape:export-ydpi="154.3"><tspan
          sodipodi:role="line"
          id="tspan3162"
-         x="-357.508"
-         y="527.05164"
+         x="-646.508"
+         y="466.05164"
          style="letter-spacing:4.21041107px">76543210</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
-       x="157.55025"
-       y="267.58987"
+       x="96.550247"
+       y="556.58984"
        id="text3367"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
@@ -1608,13 +1613,13 @@
        inkscape:export-ydpi="154.3"><tspan
          sodipodi:role="line"
          id="tspan3369"
-         x="157.55025"
-         y="267.58987">A</tspan></text>
+         x="96.550247"
+         y="556.58984">A</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
-       x="307.48477"
-       y="267.58987"
+       x="246.48477"
+       y="556.58984"
        id="text3371"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
@@ -1622,13 +1627,13 @@
        inkscape:export-ydpi="154.3"><tspan
          sodipodi:role="line"
          id="tspan3373"
-         x="307.48477"
-         y="267.58987">B</tspan></text>
+         x="246.48477"
+         y="556.58984">B</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
-       x="457.41931"
-       y="267.46683"
+       x="396.41931"
+       y="556.4668"
        id="text3375"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
@@ -1636,13 +1641,13 @@
        inkscape:export-ydpi="154.3"><tspan
          sodipodi:role="line"
          id="tspan3377"
-         x="457.41931"
-         y="267.46683">C</tspan></text>
+         x="396.41931"
+         y="556.4668">C</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
-       x="265.5983"
-       y="554.48438"
+       x="204.5983"
+       y="843.48438"
        id="text3379"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
@@ -1650,13 +1655,13 @@
        inkscape:export-ydpi="154.3"><tspan
          sodipodi:role="line"
          id="tspan3381"
-         x="265.5983"
-         y="554.48438">D</tspan></text>
+         x="204.5983"
+         y="843.48438">D</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
-       x="307.96075"
-       y="554.48438"
+       x="246.96075"
+       y="843.48438"
        id="text3383"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
@@ -1664,13 +1669,13 @@
        inkscape:export-ydpi="154.3"><tspan
          sodipodi:role="line"
          id="tspan3385"
-         x="307.96075"
-         y="554.48438">E</tspan></text>
+         x="246.96075"
+         y="843.48438">E</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
-       x="460.27521"
-       y="554.48438"
+       x="399.27521"
+       y="843.48438"
        id="text3387"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
@@ -1678,13 +1683,13 @@
        inkscape:export-ydpi="154.3"><tspan
          sodipodi:role="line"
          id="tspan3389"
-         x="460.27521"
-         y="554.48438">F</tspan></text>
+         x="399.27521"
+         y="843.48438">F</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
-       x="191.821"
-       y="554.48438"
+       x="130.821"
+       y="843.48438"
        id="text3391"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
@@ -1692,13 +1697,14 @@
        inkscape:export-ydpi="154.3"><tspan
          sodipodi:role="line"
          id="tspan3393"
-         x="191.821"
-         y="554.48438">AN</tspan></text>
+         x="130.821"
+         y="843.48438">AN</tspan></text>
     <g
        id="g3424"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
-       inkscape:export-ydpi="154.3">
+       inkscape:export-ydpi="154.3"
+       transform="translate(-61,289)">
       <rect
          y="466.01624"
          x="588.62469"
@@ -1766,8 +1772,8 @@
     <text
        xml:space="preserve"
        style="font-size:10.4127636px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
-       x="-539.88959"
-       y="636.00726"
+       x="-828.88959"
+       y="575.00726"
        id="text3435"
        sodipodi:linespacing="125%"
        transform="matrix(0,-1,1,0,0,0)"
@@ -1776,13 +1782,13 @@
        inkscape:export-ydpi="154.3"><tspan
          sodipodi:role="line"
          id="tspan3437"
-         x="-539.88959"
-         y="636.00726">1     2     3     4</tspan></text>
+         x="-828.88959"
+         y="575.00726">1     2     3     4</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10.39387894px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
-       x="-540.06433"
-       y="596.76416"
+       x="-829.06433"
+       y="535.76416"
        id="text3439"
        sodipodi:linespacing="125%"
        transform="matrix(0,-1,1,0,0,0)"
@@ -1791,13 +1797,13 @@
        inkscape:export-ydpi="154.3"><tspan
          sodipodi:role="line"
          id="tspan3441"
-         x="-540.06433"
-         y="596.76416">ON</tspan></text>
+         x="-829.06433"
+         y="535.76416">ON</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
-       x="218"
-       y="370.36218"
+       x="157"
+       y="659.36218"
        id="text3443"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
@@ -1805,21 +1811,21 @@
        inkscape:export-ydpi="154.3"><tspan
          sodipodi:role="line"
          id="tspan3445"
-         x="218"
-         y="370.36218">XILINX</tspan><tspan
+         x="157"
+         y="659.36218">XILINX</tspan><tspan
          sodipodi:role="line"
-         x="218"
-         y="385.36218"
+         x="157"
+         y="674.36218"
          id="tspan3447">SPARTAN 6</tspan><tspan
          sodipodi:role="line"
-         x="218"
-         y="400.36218"
+         x="157"
+         y="689.36218"
          id="tspan3449">XC6SLX25</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
-       x="369"
-       y="322.36218"
+       x="308"
+       y="611.36218"
        id="text3451"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
@@ -1827,17 +1833,17 @@
        inkscape:export-ydpi="154.3"><tspan
          sodipodi:role="line"
          id="tspan3453"
-         x="369"
-         y="322.36218">ALLIANCE</tspan><tspan
+         x="308"
+         y="611.36218">ALLIANCE</tspan><tspan
          sodipodi:role="line"
-         x="369"
-         y="337.36218"
+         x="308"
+         y="626.36218"
          id="tspan3455">AS4C16M16S-6TCN</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
-       x="479"
-       y="419.36218"
+       x="418"
+       y="708.36218"
        id="text3457"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
@@ -1845,17 +1851,17 @@
        inkscape:export-ydpi="154.3"><tspan
          sodipodi:role="line"
          id="tspan3459"
-         x="479"
-         y="419.36218">FTDI</tspan><tspan
+         x="418"
+         y="708.36218">FTDI</tspan><tspan
          sodipodi:role="line"
-         x="479"
-         y="434.36218"
+         x="418"
+         y="723.36218"
          id="tspan3461">FT2232HL</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
-       x="-539.37878"
-       y="537.54785"
+       x="-828.37878"
+       y="476.54785"
        id="text3463"
        sodipodi:linespacing="125%"
        transform="matrix(0,-1,1,0,0,0)"
@@ -1864,13 +1870,13 @@
        inkscape:export-ydpi="154.3"><tspan
          sodipodi:role="line"
          id="tspan3465"
-         x="-539.37878"
-         y="537.54785">LD33</tspan></text>
+         x="-828.37878"
+         y="476.54785">LD33</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
-       x="366"
-       y="454.36218"
+       x="305"
+       y="743.36218"
        id="text3467"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
@@ -1878,13 +1884,13 @@
        inkscape:export-ydpi="154.3"><tspan
          sodipodi:role="line"
          id="tspan3469"
-         x="366"
-         y="454.36218">W25Q80BVSNIG</tspan></text>
+         x="305"
+         y="743.36218">W25Q80BVSNIG</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
-       x="320"
-       y="522.36218"
+       x="259"
+       y="811.36218"
        id="text3471"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
@@ -1892,13 +1898,13 @@
        inkscape:export-ydpi="154.3"><tspan
          sodipodi:role="line"
          id="tspan3473"
-         x="320"
-         y="522.36218">LD12</tspan></text>
+         x="259"
+         y="811.36218">LD12</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
-       x="211.39999"
-       y="512.19073"
+       x="150.39999"
+       y="801.19073"
        id="text3475"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
@@ -1906,13 +1912,13 @@
        inkscape:export-ydpi="154.3"><tspan
          sodipodi:role="line"
          id="tspan3477"
-         x="211.39999"
-         y="512.19073">128S102</tspan></text>
+         x="150.39999"
+         y="801.19073">128S102</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
-       x="612"
-       y="410.36218"
+       x="551"
+       y="699.36218"
        id="text3479"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
@@ -1920,13 +1926,13 @@
        inkscape:export-ydpi="154.3"><tspan
          sodipodi:role="line"
          id="tspan3481"
-         x="612"
-         y="410.36218">USB</tspan></text>
+         x="551"
+         y="699.36218">USB</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
-       x="571"
-       y="311.36218"
+       x="510"
+       y="600.36218"
        id="text3483"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
@@ -1934,13 +1940,13 @@
        inkscape:export-ydpi="154.3"><tspan
          sodipodi:role="line"
          id="tspan3485"
-         x="571"
-         y="311.36218">SDCARD</tspan></text>
+         x="510"
+         y="600.36218">MICROSD</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
-       x="95"
-       y="280.36218"
+       x="34"
+       y="569.36218"
        id="text3487"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
@@ -1948,17 +1954,17 @@
        inkscape:export-ydpi="154.3"><tspan
          sodipodi:role="line"
          id="tspan3489"
-         x="95"
-         y="280.36218">HDMI</tspan><tspan
+         x="34"
+         y="569.36218">HDMI</tspan><tspan
          sodipodi:role="line"
-         x="95"
-         y="295.36218"
+         x="34"
+         y="584.36218"
          id="tspan3495">J3</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
-       x="96"
-       y="482.36218"
+       x="35"
+       y="771.36218"
        id="text3491"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
@@ -1966,17 +1972,17 @@
        inkscape:export-ydpi="154.3"><tspan
          sodipodi:role="line"
          id="tspan3493"
-         x="96"
-         y="482.36218">HDMI</tspan><tspan
+         x="35"
+         y="771.36218">HDMI</tspan><tspan
          sodipodi:role="line"
-         x="96"
-         y="497.36218"
+         x="35"
+         y="786.36218"
          id="tspan3497">J2</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
-       x="184"
-       y="483.36218"
+       x="123"
+       y="772.36218"
        id="text3507"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
@@ -1984,13 +1990,13 @@
        inkscape:export-ydpi="154.3"><tspan
          sodipodi:role="line"
          id="tspan3509"
-         x="184"
-         y="483.36218">PCA9306</tspan></text>
+         x="123"
+         y="772.36218">PCA9306</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
-       x="451"
-       y="516.36218"
+       x="390"
+       y="805.36218"
        id="text3511"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
@@ -1998,13 +2004,13 @@
        inkscape:export-ydpi="154.3"><tspan
          sodipodi:role="line"
          id="tspan3513"
-         x="451"
-         y="516.36218">93C46B</tspan></text>
+         x="390"
+         y="805.36218">93C46B</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
-       x="546"
-       y="470.36218"
+       x="485"
+       y="759.36218"
        id="text3515"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
@@ -2012,13 +2018,13 @@
        inkscape:export-ydpi="154.3"><tspan
          sodipodi:role="line"
          id="tspan3517"
-         x="546"
-         y="470.36218">12MHz</tspan></text>
+         x="485"
+         y="759.36218">12MHz</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
-       x="94"
-       y="411.36218"
+       x="33"
+       y="700.36218"
        id="text3519"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
@@ -2026,13 +2032,13 @@
        inkscape:export-ydpi="154.3"><tspan
          sodipodi:role="line"
          id="tspan3521"
-         x="94"
-         y="411.36218">AUDIO OUT</tspan></text>
+         x="33"
+         y="700.36218">AUDIO OUT</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
-       x="273"
-       y="498.36218"
+       x="212"
+       y="787.36218"
        id="text3523"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
@@ -2040,13 +2046,13 @@
        inkscape:export-ydpi="154.3"><tspan
          sodipodi:role="line"
          id="tspan3525"
-         x="273"
-         y="498.36218">50MHz</tspan></text>
+         x="212"
+         y="787.36218">50MHz</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
-       x="273"
-       y="524.36218"
+       x="212"
+       y="813.36218"
        id="text3527"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
@@ -2054,13 +2060,13 @@
        inkscape:export-ydpi="154.3"><tspan
          sodipodi:role="line"
          id="tspan3529"
-         x="273"
-         y="524.36218">32MHz</tspan></text>
+         x="212"
+         y="813.36218">32MHz</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
-       x="584"
-       y="450.36218"
+       x="523"
+       y="739.36218"
        id="text3531"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
@@ -2068,11 +2074,11 @@
        inkscape:export-ydpi="154.3"><tspan
          sodipodi:role="line"
          id="tspan3533"
-         x="584"
-         y="450.36218">PWR</tspan></text>
+         x="523"
+         y="739.36218">PWR</tspan></text>
     <g
        id="g4400"
-       transform="translate(83.171428,-492)"
+       transform="translate(180.31428,-67.11429)"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3">
@@ -2164,8 +2170,8 @@
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
-       x="534.17145"
-       y="632.99072"
+       x="510.17145"
+       y="921.99072"
        id="text4414"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
@@ -2173,13 +2179,13 @@
        inkscape:export-ydpi="154.3"><tspan
          sodipodi:role="line"
          id="tspan4416"
-         x="534.17145"
-         y="632.99072">3.3V REGULATOR</tspan></text>
+         x="510.17145"
+         y="921.99072">3.3V REGULATOR</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
-       x="267.08572"
-       y="632.99072"
+       x="189.08572"
+       y="921.99072"
        id="text4418"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
@@ -2187,13 +2193,13 @@
        inkscape:export-ydpi="154.3"><tspan
          sodipodi:role="line"
          id="tspan4420"
-         x="267.08572"
-         y="632.99072">1.2V REGULATOR</tspan></text>
+         x="189.08572"
+         y="921.99072">1.2V REGULATOR</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
-       x="381.88571"
-       y="632.99072"
+       x="296.88571"
+       y="921.99072"
        id="text4422"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
@@ -2201,13 +2207,13 @@
        inkscape:export-ydpi="154.3"><tspan
          sodipodi:role="line"
          id="tspan4424"
-         x="381.88571"
-         y="632.99072">SPI FLASH</tspan></text>
+         x="296.88571"
+         y="921.99072">8MBIT SPI FLASH</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
-       x="465.05713"
-       y="632.99072"
+       x="406.05713"
+       y="921.99072"
        id="text4426"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
@@ -2215,13 +2221,13 @@
        inkscape:export-ydpi="154.3"><tspan
          sodipodi:role="line"
          id="tspan4428"
-         x="465.05713"
-         y="632.99072">EEPROM</tspan></text>
+         x="406.05713"
+         y="921.99072">16MBIT EEPROM</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
-       x="107.77143"
-       y="632.99072"
+       x="46.771431"
+       y="921.99072"
        id="text4430"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
@@ -2229,13 +2235,13 @@
        inkscape:export-ydpi="154.3"><tspan
          sodipodi:role="line"
          id="tspan4432"
-         x="107.77143"
-         y="632.99072">I2C</tspan></text>
+         x="46.771431"
+         y="921.99072">I2C</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
-       x="217.88571"
-       y="632.99072"
+       x="156.88571"
+       y="921.99072"
        id="text4434"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
@@ -2243,55 +2249,151 @@
        inkscape:export-ydpi="154.3"><tspan
          sodipodi:role="line"
          id="tspan4436"
-         x="217.88571"
-         y="632.99072">ADC</tspan></text>
+         x="156.88571"
+         y="921.99072">ADC</tspan></text>
     <path
-       style="fill:#008000;stroke:#008000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       d="M 216.71429,490.07647 119.48571,615.41933"
+       style="fill:#008000;stroke:#008000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 155.71429,779.07647 58.48571,904.41933"
        id="path4438"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       style="fill:#008000;stroke:#008000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 236.62857,534.59075 -4.68571,84.34286"
+       style="fill:#008000;stroke:#008000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 175.62857,823.59075 -4.68571,84.34286"
        id="path4440"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       style="fill:#008000;stroke:#008000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       d="M 333.85714,525.21933 319.8,616.59075"
+       style="fill:#008000;stroke:#008000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 272.85714,814.21933 258.8,905.59075"
        id="path4442"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       style="fill:#008000;stroke:#008000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 410,481.87647 12.88571,133.54286"
+       style="fill:#008000;stroke:#008000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 349,770.87647 12.88571,133.54286"
        id="path4444"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       style="fill:#008000;stroke:#008000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 466.22857,531.07647 15.22857,85.51428"
+       style="fill:#008000;stroke:#008000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 405.22857,820.07647 42.22857,84.51428"
        id="path4446"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
+       inkscape:export-xdpi="154.3"
+       inkscape:export-ydpi="154.3"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#008000;stroke:#008000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 481.37143,830.61933 55.97143,72.8"
+       id="path4448"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
+       inkscape:export-xdpi="154.3"
+       inkscape:export-ydpi="154.3"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
+       x="285"
+       y="490.36218"
+       id="text6552"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
+       inkscape:export-xdpi="154.3"
+       inkscape:export-ydpi="154.3"><tspan
+         sodipodi:role="line"
+         id="tspan6554"
+         x="285"
+         y="490.36218">16M x 16 BIT SDRAM</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
+       x="446"
+       y="490.36218"
+       id="text6556"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
+       inkscape:export-xdpi="154.3"
+       inkscape:export-ydpi="154.3"><tspan
+         sodipodi:role="line"
+         id="tspan6558"
+         x="446"
+         y="490.36218">2 USB SERIAL PORTS</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
+       x="156"
+       y="490.36218"
+       id="text6560"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
+       inkscape:export-xdpi="154.3"
+       inkscape:export-ydpi="154.3"><tspan
+         sodipodi:role="line"
+         id="tspan6562"
+         x="156"
+         y="490.36218">FPGA</tspan></text>
+    <path
+       style="fill:#008000;stroke:#008000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 169,494.36218 10,147"
+       id="path7332"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
     <path
-       style="fill:#008000;stroke:#008000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 542.37143,541.61933 33.97143,73.8"
-       id="path4448"
+       style="fill:#008000;stroke:#008000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 339,494.36218 1,96"
+       id="path7334"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
+    <path
+       style="fill:#008000;stroke:#008000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 519,496.36218 -42,204"
+       id="path7338"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
+       inkscape:export-xdpi="154.3"
+       inkscape:export-ydpi="154.3" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
+       x="400"
+       y="197.36218"
+       id="text7340"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
+       inkscape:export-xdpi="154.3"
+       inkscape:export-ydpi="154.3"><tspan
+         sodipodi:role="line"
+         id="tspan7342"
+         x="400"
+         y="197.36218" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto;-inkscape-font-specification:Roboto"
+       x="315"
+       y="843.36218"
+       id="text7344"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/james/devroot/learnfpga/diagram.png"
+       inkscape:export-xdpi="154.3"
+       inkscape:export-ydpi="154.3"><tspan
+         sodipodi:role="line"
+         id="tspan7346"
+         x="315"
+         y="843.36218">RESET</tspan></text>
   </g>
 </svg>
