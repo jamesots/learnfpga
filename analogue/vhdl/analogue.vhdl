@@ -15,31 +15,33 @@ entity analogue is
 end analogue;
 
 architecture Behavioral of analogue is
-  signal t : STD_LOGIC;
-  signal counter : integer range 0 to 10 := 10;
+  component clock_divider 
+  port (
+    clk_in : in  STD_LOGIC;
+    clk_out : out  STD_LOGIC;
+    reset : in STD_LOGIC
+  );
+  end component;
+
   signal value : STD_LOGIC_VECTOR (11 downto 0);
   signal step : integer range 0 to 20 := 0;
   signal ad_port : STD_LOGIC_VECTOR (2 downto 0) := "010"; -- 2
+  signal reset : STD_LOGIC := '0';
+  signal clk : STD_LOGIC;
 begin
-process(clk50)
+  div : clock_divider port map (
+    clk_in => clk50,
+    clk_out => clk,
+    reset => reset
+  );
+  process(clk, reset)
   begin
-    if rising_edge(clk50) then
-      if (counter = 10) then
-        -- make sure cs is set high to start with so we know where to
-        -- start counting steps from
-        ad_cs <= '1';
-        counter <= 0;
-
-        -- divide clock down to 12.5MHz
-      elsif (counter = 2) then
-        counter <= 0;
-
-        if (t = '0') then
-          t <= '1';
-
+      ad_sclk <= clk;
+      if (rising_edge(clk)) then
           if (step < 5) then
             ad_cs <= '0';
             step <= step + 1;
+            value <= "000000000000";
           elsif (step < 16) then
             -- dout is clocked out on the falling edge of the clock,
             -- so read it on the rising edge
@@ -69,21 +71,15 @@ process(clk50)
             end if;
             step <= 1;
           end if;
-        else
-          t <= '0';
-
-          if ((step >= 3) and (step < 6)) then
+      end if;
+      if (falling_edge(clk)) then
+          if ((step >= 1) and (step < 4)) then
             -- din is sampled on rising edge of clock, so set it on
             -- the falling edge
-            ad_din <= ad_port(5 - step);
+            ad_din <= ad_port(3 - step);
           else
             ad_din <= '0';
           end if;
-        end if;
-      else
-        counter <= counter + 1;
       end if;
-    end if;
-    ad_sclk <= t;
   end process;
 end Behavioral;
