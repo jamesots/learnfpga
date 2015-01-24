@@ -54,7 +54,8 @@ CWD := $(shell pwd)
 FILES := ../vhdl/analogue.ucf \
 ../vhdl/analogue.vhdl \
 run.tcl \
-analogue.xise
+analogue.xise \
+../vhdl/clock_divider.vhdl
 
 #target for running synthesis in the remote location
 remote: __test_for_remote_synthesis_variables __send __do_synthesis
