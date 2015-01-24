@@ -28,7 +28,7 @@ architecture Behavioral of analogue is
   signal ad_port : STD_LOGIC_VECTOR (2 downto 0) := "111"; 
   signal reset : STD_LOGIC := '0';
   signal clk : STD_LOGIC;
-  signal start : boolean := true;
+  signal init : boolean := true;
 begin
   div : clock_divider port map (
     clk_in => clk50,
@@ -38,9 +38,9 @@ begin
   process(clk)
   begin
       ad_sclk <= clk;
+
       if (rising_edge(clk)) then
-        if (start) then
-        else 
+        if (not init) then
           if (step >= 5 and step < 16) then
             -- dout is clocked out on the falling edge of the clock,
             -- so read it on the rising edge
@@ -71,25 +71,23 @@ begin
         end if;
       end if;
       if (falling_edge(clk)) then
-        if (start) then
+        if (init) then
           -- send cs high for one clock cycle to make sure
           -- we know where our frames start
           ad_cs <= '1';
           -- 18 = not a normal step - used to send cs low and start the frame
           step <= 18;
-          start <= false;
+          init <= false;
         else 
           step <= step + 1;
+
           if (step = 18) then
             step <= 1;
             ad_cs <= '0';
             ad_din <= '0';
             value <= "000000000000";
           elsif (step = 16) then
-            start <= true;
-            step <= 1;
-          elsif (step = 1) then
-            ad_cs <= '0';
+            init <= true;
           end if;
 
           if ((step >= 2) and (step < 5)) then
