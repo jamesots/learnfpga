@@ -14,7 +14,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="diagram2.svg">
+   sodipodi:docname="diagram2.svg"
+   inkscape:export-filename="/home/james/devroot/learnfpga/diagram2.png"
+   inkscape:export-xdpi="154.3"
+   inkscape:export-ydpi="154.3">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -32,8 +35,8 @@
      showgrid="false"
      inkscape:window-width="1703"
      inkscape:window-height="1148"
-     inkscape:window-x="564"
-     inkscape:window-y="79"
+     inkscape:window-x="217"
+     inkscape:window-y="24"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata7">
@@ -1715,7 +1718,7 @@
        sodipodi:cy="235.43715"
        sodipodi:rx="8.117979"
        sodipodi:ry="8.117979"
-       d="m 135.01481,235.43715 a 8.117979,8.117979 0 1 1 -16.23596,0 8.117979,8.117979 0 1 1 16.23596,0 z"
+       d="m 135.01481,235.43715 c 0,4.48344 -3.63455,8.11798 -8.11798,8.11798 -4.48344,0 -8.11798,-3.63454 -8.11798,-8.11798 0,-4.48344 3.63454,-8.11798 8.11798,-8.11798 4.48343,0 8.11798,3.63454 8.11798,8.11798 z"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram2.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3"
@@ -1729,7 +1732,7 @@
        sodipodi:cy="235.43715"
        sodipodi:rx="8.117979"
        sodipodi:ry="8.117979"
-       d="m 135.01481,235.43715 a 8.117979,8.117979 0 1 1 -16.23596,0 8.117979,8.117979 0 1 1 16.23596,0 z"
+       d="m 135.01481,235.43715 c 0,4.48344 -3.63455,8.11798 -8.11798,8.11798 -4.48344,0 -8.11798,-3.63454 -8.11798,-8.11798 0,-4.48344 3.63454,-8.11798 8.11798,-8.11798 4.48343,0 8.11798,3.63454 8.11798,8.11798 z"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram2.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
@@ -1742,7 +1745,7 @@
        sodipodi:cy="235.43715"
        sodipodi:rx="8.117979"
        sodipodi:ry="8.117979"
-       d="m 135.01481,235.43715 a 8.117979,8.117979 0 1 1 -16.23596,0 8.117979,8.117979 0 1 1 16.23596,0 z"
+       d="m 135.01481,235.43715 c 0,4.48344 -3.63455,8.11798 -8.11798,8.11798 -4.48344,0 -8.11798,-3.63454 -8.11798,-8.11798 0,-4.48344 3.63454,-8.11798 8.11798,-8.11798 4.48343,0 8.11798,3.63454 8.11798,8.11798 z"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram2.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
@@ -1755,7 +1758,7 @@
        sodipodi:cy="235.43715"
        sodipodi:rx="8.117979"
        sodipodi:ry="8.117979"
-       d="m 135.01481,235.43715 a 8.117979,8.117979 0 1 1 -16.23596,0 8.117979,8.117979 0 1 1 16.23596,0 z"
+       d="m 135.01481,235.43715 c 0,4.48344 -3.63455,8.11798 -8.11798,8.11798 -4.48344,0 -8.11798,-3.63454 -8.11798,-8.11798 0,-4.48344 3.63454,-8.11798 8.11798,-8.11798 4.48343,0 8.11798,3.63454 8.11798,8.11798 z"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram2.png"
        inkscape:export-xdpi="154.3"
        inkscape:export-ydpi="154.3" />
@@ -1867,7 +1870,7 @@
        sodipodi:cy="524.2663"
        sodipodi:rx="9.8270273"
        sodipodi:ry="9.8270273"
-       d="m 405.18683,524.2663 a 9.8270273,9.8270273 0 1 1 -19.65406,0 9.8270273,9.8270273 0 1 1 19.65406,0 z"
+       d="m 405.18683,524.2663 c 0,5.42731 -4.39971,9.82702 -9.82703,9.82702 -5.42732,0 -9.82703,-4.39971 -9.82703,-9.82702 0,-5.42732 4.39971,-9.82703 9.82703,-9.82703 5.42732,0 9.82703,4.39971 9.82703,9.82703 z"
        transform="matrix(0.97101449,0,0,0.95652174,-49.682716,312.07903)"
        inkscape:export-filename="/home/james/devroot/learnfpga/diagram2.png"
        inkscape:export-xdpi="154.3"
