@@ -52,22 +52,19 @@ begin
 
   process(clk_midi, ser_out)
   begin
-  --send 9A 45 45   10011010 01000101 01000101
     portc11 <= ser_out;
     if rising_edge(clk_midi) then
+      step <= step + 1;
       if (step = 9) then
+        byte <= byte + 1;
         if (byte = 0) then
           value <= not "1100100000";
-          byte <= byte + 1;
         elsif (byte = 1) then 
           value <= not "1010001010";
-          byte <= byte + 1;
         elsif (byte = 2) then
           value <= not "1010001010";
-          byte <= byte + 1;
         elsif (byte = 3) then
           value <= "0000000000";
-          byte <= byte + 1;
         else
           value <= "0000000000";
           byte <= 0;
@@ -77,9 +74,6 @@ begin
       elsif step = 0 then
         ce <= '1';
         load <= '0';
-        step <= step + 1;
-      else
-        step <= step + 1;
       end if;
     end if;
   end process;

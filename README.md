@@ -10,6 +10,8 @@ and also relies on Xilinx ISE being installed. I'm doing all this stuff in Linux
 which echoes back everything you type via the FTDI chip.
 * analogue: My second project, which reads a voltage on an analogue input and displays the
 value on the LEDs as a bargraph.
+* midi: My third project. (Actually, my fourth, but the third isn't working yet). Sends
+midi commands. Well, one midi command, repeatedly.
 
 Notes
 -----
