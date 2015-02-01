@@ -4,7 +4,7 @@ Midi
 This project sends a midi 'Note On' command to channel 0.
 
 I made myself a midi interface for the miniSpartan6+ using three
-resistors and a transistor. I'll add the circuit diagram soon.
+resistors and a transistor. midi.sch contains the circuit diagram.
 
 It uses the 31.25 MHz clock which is divided down to 31.25 KHz, which
 is the speed the midi protocol works at. The midi serial protocol is
