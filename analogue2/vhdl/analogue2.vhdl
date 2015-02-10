@@ -48,7 +48,7 @@ begin
       if newvalue = '1' then
   --      leds <= value(11 downto 4);
 --        leds <= value(7 downto 0);
-              if (unsigned(value) < 256) then
+              if (unsigned(value) < 1) then -- was 256, changed to 1 to check if we actually get a zero at all
                 leds <= "00000000";
               elsif (unsigned(value) < 768) then
                 leds <= "00000001";
@@ -62,7 +62,7 @@ begin
                 leds <= "00011111";
               elsif (unsigned(value) < 3328) then
                 leds <= "00111111";
-              elsif (unsigned(value) < 3840) then
+              elsif (unsigned(value) < 4095) then -- changed to 4094 to seee if we actually get a 4095
                 leds <= "01111111";
               else
                 leds <= "11111111";

@@ -37,7 +37,7 @@ architecture behavioral of adc is
       clk : in std_logic;
       ce : in std_logic;
       ser_in : in std_logic;
-      par_out : out std_logic_vector(11 downto 0)
+      par_out : out std_logic_vector(width - 1 downto 0)
     );
   end component;
 
@@ -58,13 +58,15 @@ architecture behavioral of adc is
   signal reset : std_logic := '0';
   signal clk_adc : std_logic;
 
-  signal si_ce : std_logic;
+  signal si_ce : std_logic := '0';
   signal si_clk : std_logic;
   signal si_par_out : std_logic_vector(11 downto 0);
   
-  signal so_ce : std_logic;
+  signal so_ce : std_logic := '0';
   signal so_load : std_logic;
   signal so_clk : std_logic;
+  
+  signal par_out_nc : std_logic_vector(2 downto 0);
 begin
   div : clock_divider 
   generic map (
@@ -78,7 +80,7 @@ begin
   
   si : shift_in
   generic map (
-    width => 12
+    width => 15
   )
   port map (
     reset => '0',
@@ -86,15 +88,18 @@ begin
     ce => si_ce,
     
     ser_in => ad_dout,
-    par_out => si_par_out
+    par_out(11 downto 0) => si_par_out,
+    par_out(14 downto 12) => par_out_nc -- we don't care about these bits
   );
   
   so : shift_out 
   generic map (
-    width => 3
+    width => 15
   )
   port map (
-    par_in => ad_port,
+    par_in(13 downto 11) => ad_port,
+    par_in(14) => '0',  -- adc doesn't care about these bits
+    par_in(10 downto 0) => "00000000000",  -- or these
     load => so_load,
     ser_out => ad_din,
     clk => so_clk,
@@ -107,39 +112,33 @@ begin
   process(clk_adc)
   begin
       if falling_edge(clk_adc) then
-        if step > 3 and step < 16 then
-          si_ce <= '1' after 5ns; -- try to keep isim happy
-        else
-          si_ce <= '0' after 5ns;
-        end if;
-        
-        if step > 0 and step < 4 then
-          so_ce <= '1' after 5ns;
-        else
-          so_ce <= '0' after 5ns;
-        end if;
+        case step is
+          when 16 =>
+            ad_value <= si_par_out;
+            ad_cs <= '1';
+            
+            si_ce <= '0' after 5ns;
+            so_ce <= '0' after 5ns;
+            so_load <= '1' after 5ns;
 
-        step <= step + 1;
-        if step = 16 then
-          ad_value <= si_par_out;
-          ad_cs <= '1';
-          step <= 0;
-          
-          so_load <= '1';
-        elsif step = 0 then
-          -- send cs high for one clock cycle to make sure
-          -- we know where our frames start
-          ad_cs <= '0';
-
-          ad_newvalue <= '1';
-          
-          so_load <= '0' after 5ns;
-          
-          step <= 1;
-        else
-          ad_cs <= '0';
-          ad_newvalue <= '0';
-        end if;
+            step <= 0;
+          when 0 =>
+            -- send cs high for one clock cycle to make sure
+            -- we know where our frames start
+            ad_cs <= '0';
+            ad_newvalue <= '1';
+            
+            si_ce <= '1' after 5ns;
+            so_ce <= '1' after 5ns;
+            so_load <= '0' after 5ns;
+            
+            step <= 1;
+          when others =>
+            ad_cs <= '0';
+            ad_newvalue <= '0';
+            
+            step <= step + 1;
+        end case;
       end if;
   end process;
 end behavioral;

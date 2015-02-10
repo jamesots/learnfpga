@@ -90,14 +90,28 @@ BEGIN
    stim_proc: process
    begin		
       -- hold reset state for 100 ns.
-      wait for 100 ns;	
+      wait for 105 ns;	
       
+      ad_dout <= '0';
+      
+      wait for clk50_period * 13;
+      ad_dout <= '1';
+      wait for clk50_period * 48;
+      ad_dout <= '0';
+      wait for clk50_period * 4;
+      
+      ad_dout <= '1';
+      wait for clk50_period * 16;
+      ad_dout <= '0';
+      wait for clk50_period * 48;
+      ad_dout <= '1';
+      wait for clk50_period * 4;
       ad_dout <= '0';
 
       loop
-        ad_dout <= '1';
-        wait for clk50_period*50;
         ad_dout <= '0';
+        wait for clk50_period*50;
+        ad_dout <= '1';
         wait for clk50_period*50;
       end loop;
 
