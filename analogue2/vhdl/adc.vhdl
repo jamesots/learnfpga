@@ -58,11 +58,11 @@ architecture behavioral of adc is
   signal reset : std_logic := '0';
   signal clk_adc : std_logic;
 
-  signal si_ce : std_logic := '0';
+  signal si_ce : std_logic := '1';
   signal si_clk : std_logic;
   signal si_par_out : std_logic_vector(11 downto 0);
   
-  signal so_ce : std_logic := '0';
+  signal so_ce : std_logic := '1';
   signal so_load : std_logic;
   signal so_clk : std_logic;
   
@@ -117,8 +117,6 @@ begin
             ad_value <= si_par_out;
             ad_cs <= '1';
             
-            si_ce <= '0' after 5ns;
-            so_ce <= '0' after 5ns;
             so_load <= '1' after 5ns;
 
             step <= 0;
@@ -128,8 +126,6 @@ begin
             ad_cs <= '0';
             ad_newvalue <= '1';
             
-            si_ce <= '1' after 5ns;
-            so_ce <= '1' after 5ns;
             so_load <= '0' after 5ns;
             
             step <= 1;
