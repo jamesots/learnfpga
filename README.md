@@ -12,8 +12,8 @@ which echoes back everything you type via the FTDI chip.
 value on the LEDs as a bargraph.
 * midi: My third project. (Actually, my fourth, but the third isn't working yet). Sends
 midi commands. Well, one midi command, repeatedly.
-* analogue2: 4th project. Potentially an improvement on analogue, although I'm not sure
-if it really works properly.
+* analogue2: 4th project. An improvement on the original analogue project, using
+an ADC component and shift registers.
 
 Notes
 -----
