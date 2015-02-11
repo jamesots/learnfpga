@@ -55,14 +55,11 @@ architecture behavioral of adc is
   end component;
 
   signal step : integer range 0 to 18 := 16;
-  signal reset : std_logic := '0';
   signal clk_adc : std_logic;
 
-  signal si_ce : std_logic := '1';
   signal si_clk : std_logic;
   signal si_par_out : std_logic_vector(11 downto 0);
   
-  signal so_ce : std_logic := '1';
   signal so_load : std_logic;
   signal so_clk : std_logic;
 begin
@@ -73,7 +70,7 @@ begin
   port map (
     clk_in => clk,
     clk_out => clk_adc,
-    reset => reset
+    reset => '0'
   );
   
   si : shift_in
@@ -83,10 +80,10 @@ begin
   port map (
     reset => '0',
     clk => clk_adc,
-    ce => si_ce,
+    ce => '1',
     
     ser_in => ad_dout,
-    par_out(11 downto 0) => si_par_out
+    par_out => si_par_out
   );
   
   so : shift_out 
@@ -98,7 +95,7 @@ begin
     load => so_load,
     ser_out => ad_din,
     clk => so_clk,
-    ce => so_ce
+    ce => '1'
   );
 
   ad_sclk <= clk_adc;
@@ -106,27 +103,27 @@ begin
   
   process(clk_adc)
   begin
-      if falling_edge(clk_adc) then
-        case step is
-          when 16 =>
-            ad_value <= si_par_out;
-            ad_cs <= '1';
-            
-            step <= 0;
-          when 0 =>
-            -- send cs high for one clock cycle to make sure
-            -- we know where our frames start
-            ad_cs <= '0';
-            ad_newvalue <= '1';
-            
-            step <= 1;
-          when others =>
-            ad_cs <= '0';
-            ad_newvalue <= '0';
-            
-            step <= step + 1;
-        end case;
-      end if;
+    if falling_edge(clk_adc) then
+      case step is
+        when 16 =>
+          ad_value <= si_par_out;
+          ad_cs <= '1';
+          
+          step <= 0;
+        when 0 =>
+          -- send cs high for one clock cycle to make sure
+          -- we know where our frames start
+          ad_cs <= '0';
+          ad_newvalue <= '1';
+          
+          step <= 1;
+        when others =>
+          ad_cs <= '0';
+          ad_newvalue <= '0';
+          
+          step <= step + 1;
+      end case;
+    end if;
   end process;
   
   process(clk_adc)
