@@ -15,7 +15,7 @@ entity shift_out is
 end shift_out;
 
 architecture behavioral of shift_out is
-  signal par : std_logic_vector((width - 1) downto 0);
+  signal par : std_logic_vector((width - 1) downto 0) := (others => '0');
 begin
   process(clk)
   begin

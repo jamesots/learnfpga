@@ -6,13 +6,13 @@ entity adc is
   port (
     ad_port : in std_logic_vector (2 downto 0);
     ad_value : out std_logic_vector (11 downto 0);
-    ad_newvalue : out std_logic;
+    ad_newvalue : out std_logic := '0';
 
     clk : in std_logic;
     ad_dout : in std_logic;
-    ad_din : out std_logic;
-    ad_cs : out std_logic;
-    ad_sclk : out std_logic
+    ad_din : out std_logic := '0';
+    ad_cs : out std_logic := '0';
+    ad_sclk : out std_logic := '0'
   );
 end adc;
 
@@ -65,8 +65,6 @@ architecture behavioral of adc is
   signal so_ce : std_logic := '1';
   signal so_load : std_logic;
   signal so_clk : std_logic;
-  
-  signal par_out_nc : std_logic_vector(2 downto 0);
 begin
   div : clock_divider 
   generic map (
@@ -80,7 +78,7 @@ begin
   
   si : shift_in
   generic map (
-    width => 15
+    width => 12
   )
   port map (
     reset => '0',
@@ -88,18 +86,15 @@ begin
     ce => si_ce,
     
     ser_in => ad_dout,
-    par_out(11 downto 0) => si_par_out,
-    par_out(14 downto 12) => par_out_nc -- we don't care about these bits
+    par_out(11 downto 0) => si_par_out
   );
   
   so : shift_out 
   generic map (
-    width => 15
+    width => 3
   )
   port map (
-    par_in(13 downto 11) => ad_port,
-    par_in(14) => '0',  -- adc doesn't care about these bits
-    par_in(10 downto 0) => "00000000000",  -- or these
+    par_in => ad_port,
     load => so_load,
     ser_out => ad_din,
     clk => so_clk,
@@ -117,16 +112,12 @@ begin
             ad_value <= si_par_out;
             ad_cs <= '1';
             
-            so_load <= '1' after 5ns;
-
             step <= 0;
           when 0 =>
             -- send cs high for one clock cycle to make sure
             -- we know where our frames start
             ad_cs <= '0';
             ad_newvalue <= '1';
-            
-            so_load <= '0' after 5ns;
             
             step <= 1;
           when others =>
@@ -136,5 +127,17 @@ begin
             step <= step + 1;
         end case;
       end if;
+  end process;
+  
+  process(clk_adc)
+  begin
+    if rising_edge(clk_adc) then
+      case step is
+        when 1 =>
+          so_load <= '1';
+        when others =>
+          so_load <= '0';
+      end case;
+    end if;
   end process;
 end behavioral;
