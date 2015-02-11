@@ -14,8 +14,7 @@ architecture behavior of adc_tb is
     clk : in std_logic;
     ad_dout : in std_logic;
     ad_din : out std_logic;
-    ad_cs : out std_logic;
-    ad_sclk : out std_logic
+    ad_cs : out std_logic
   );
   end component;
 
@@ -29,13 +28,11 @@ architecture behavior of adc_tb is
   signal ad_newvalue : std_logic;
   signal ad_din : std_logic;
   signal ad_cs : std_logic;
-  signal ad_sclk : std_logic;
   
   signal test : std_logic := '0';
 
   -- Clock period definitions
   constant clk_period : time := 10 ns;
-  constant adc_clk_period : time := clk_period * 4;
 
 begin 
   uut: adc 
@@ -46,8 +43,7 @@ begin
     clk => clk,
     ad_dout => ad_dout,
     ad_din => ad_din,
-    ad_cs => ad_cs,
-    ad_sclk => ad_sclk
+    ad_cs => ad_cs
   );
 
   -- Clock process definitions
@@ -62,29 +58,29 @@ begin
    -- Stimulus process
   stim_proc: process
   begin		
-    wait for adc_clk_period * 2 - clk_period;	
+    wait for clk_period * 1.5;	
     
     ad_dout <= '0';
     
-    wait for adc_clk_period * 4;
+    wait for clk_period * 4;
     ad_dout <= '1';
-    wait for adc_clk_period * 12;
+    wait for clk_period * 12;
     ad_dout <= '0';
-    wait for adc_clk_period;
+    wait for clk_period;
     
     ad_dout <= '1';
-    wait for adc_clk_period * 4;
+    wait for clk_period * 4;
     ad_dout <= '0';
-    wait for adc_clk_period * 12;
+    wait for clk_period * 12;
     ad_dout <= '1';
-    wait for adc_clk_period;
+    wait for clk_period;
     ad_dout <= '0';
 
     loop
       ad_dout <= '0';
-      wait for adc_clk_period*10;
+      wait for clk_period*10;
       ad_dout <= '1';
-      wait for adc_clk_period*10;
+      wait for clk_period*10;
     end loop;
 
     wait;
@@ -93,36 +89,36 @@ begin
   test_proc: process
   begin
     -- toggling test so I can see where the asserts are in ISIM
-    wait for clk_period * 5;	
+    wait for clk_period;	
     test <= '1';
     assert ad_newvalue = '0';
     assert ad_cs = '1';
     
-    wait for adc_clk_period;
+    wait for clk_period;
     test <= '0';
     assert ad_newvalue = '1';
     assert ad_cs = '0';
     assert ad_value = "000000000000";
     
-    wait for adc_clk_period * 2;
+    wait for clk_period * 2;
     test <= '1';
     assert ad_newvalue = '0';
     assert ad_cs = '0';
     assert ad_din = '1';
     
-    wait for adc_clk_period;
+    wait for clk_period;
     test <= '0';
     assert ad_din = '1';
     
-    wait for adc_clk_period;
+    wait for clk_period;
     test <= '1';
     assert ad_din = '1';
     
-    wait for adc_clk_period * 12;
+    wait for clk_period * 12;
     test <= '0';
     assert ad_cs = '1';
 
-    wait for adc_clk_period;
+    wait for clk_period;
     test <= '1';
     assert ad_newvalue = '1';
     assert ad_value = "111111111111";

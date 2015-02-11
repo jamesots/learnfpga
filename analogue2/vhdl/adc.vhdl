@@ -11,23 +11,11 @@ entity adc is
     clk : in std_logic;
     ad_dout : in std_logic;
     ad_din : out std_logic := '0';
-    ad_cs : out std_logic := '0';
-    ad_sclk : out std_logic := '0'
+    ad_cs : out std_logic := '0'
   );
 end adc;
 
 architecture behavioral of adc is
-  component clock_divider 
-    generic (
-      divisor : positive
-    );
-    port (
-      clk_in : in std_logic;
-      clk_out : out std_logic;
-      reset : in std_logic
-    );
-  end component;
-
   component shift_in
     generic (
       width : positive
@@ -55,23 +43,12 @@ architecture behavioral of adc is
   end component;
 
   signal step : integer range 0 to 18 := 16;
-  signal clk_adc : std_logic;
 
-  signal si_clk : std_logic;
   signal si_par_out : std_logic_vector(11 downto 0);
   
   signal so_load : std_logic;
   signal so_clk : std_logic;
 begin
-  div : clock_divider 
-  generic map (
-    divisor => 1
-  )
-  port map (
-    clk_in => clk,
-    clk_out => clk_adc,
-    reset => '0'
-  );
   
   si : shift_in
   generic map (
@@ -79,7 +56,7 @@ begin
   )
   port map (
     reset => '0',
-    clk => clk_adc,
+    clk => clk,
     ce => '1',
     
     ser_in => ad_dout,
@@ -98,12 +75,11 @@ begin
     ce => '1'
   );
 
-  ad_sclk <= clk_adc;
-  so_clk <= not clk_adc;
+  so_clk <= not clk;
   
-  process(clk_adc)
+  process(clk)
   begin
-    if falling_edge(clk_adc) then
+    if falling_edge(clk) then
       case step is
         when 16 =>
           ad_value <= si_par_out;
@@ -126,9 +102,9 @@ begin
     end if;
   end process;
   
-  process(clk_adc)
+  process(clk)
   begin
-    if rising_edge(clk_adc) then
+    if rising_edge(clk) then
       case step is
         when 1 =>
           so_load <= '1';

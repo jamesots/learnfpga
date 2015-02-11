@@ -14,6 +14,17 @@ entity analogue2 is
 end analogue2;
 
 architecture Behavioral of analogue2 is
+  component clock_divider 
+    generic (
+      divisor : positive
+    );
+    port (
+      clk_in : in std_logic;
+      clk_out : out std_logic;
+      reset : in std_logic
+    );
+  end component;
+
   component adc
   port (
     ad_port : in STD_LOGIC_VECTOR (2 downto 0);
@@ -23,25 +34,37 @@ architecture Behavioral of analogue2 is
     clk : in STD_LOGIC;
     ad_dout : in STD_LOGIC;
     ad_din : out STD_LOGIC;
-    ad_cs : out STD_LOGIC;
-    ad_sclk : out STD_LOGIC
+    ad_cs : out STD_LOGIC
   );
   end component;
 
+  signal clk_adc : std_logic;
   signal newvalue : std_logic;
   signal value : std_logic_vector(11 downto 0);
 begin
+  div : clock_divider 
+  generic map (
+    divisor => 1
+  )
+  port map (
+    clk_in => clk50,
+    clk_out => clk_adc,
+    reset => '0'
+  );
+
   adc1 : adc port map (
     ad_port => "111",
     ad_value => value,
     ad_newvalue => newvalue,
     
-    clk => clk50,
+    clk => clk_adc,
     ad_dout => ad_dout,
     ad_din => ad_din,
-    ad_cs => ad_cs,
-    ad_sclk => ad_sclk
+    ad_cs => ad_cs
   );
+  
+  ad_sclk <= clk_adc;
+  
   process(clk50)
   begin
     if rising_edge(clk50) then
