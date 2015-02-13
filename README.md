@@ -14,6 +14,7 @@ value on the LEDs as a bargraph.
 midi commands. Well, one midi command, repeatedly.
 * analogue2: 4th project. An improvement on the original analogue project, using
 an ADC component and shift registers.
+* fifo: An attempt at a dual clock fifo.
 
 Notes
 -----
