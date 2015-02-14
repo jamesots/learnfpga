@@ -15,6 +15,7 @@ midi commands. Well, one midi command, repeatedly.
 * analogue2: 4th project. An improvement on the original analogue project, using
 an ADC component and shift registers.
 * fifo: An attempt at a dual clock fifo.
+* midi2: Making the midi transmitter into a component.
 
 Notes
 -----
