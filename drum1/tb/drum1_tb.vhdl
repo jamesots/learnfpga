@@ -16,7 +16,8 @@ ARCHITECTURE behavior OF drum1_tb IS
     PORT(
          clk50 : IN  std_logic;
          clk32 : IN  std_logic;
-         portc11 : OUT  std_logic
+         portc11 : OUT  std_logic;
+         portf10 : IN  std_logic
       );
     END COMPONENT;
     
@@ -27,6 +28,7 @@ ARCHITECTURE behavior OF drum1_tb IS
 
  	--Outputs
    signal portc11 : std_logic;
+   signal portf10 : std_logic;
 
    -- Clock period definitions
    constant clk32_period : time := 10 ns;
@@ -38,7 +40,8 @@ BEGIN
    uut: drum1 PORT MAP (
           clk50 => clk50,
           clk32 => clk32,
-          portc11 => portc11
+          portc11 => portc11,
+          portf10 => portf10
         );
 
    -- Clock process definitions
@@ -61,8 +64,16 @@ BEGIN
    -- Stimulus process
    stim_proc: process
    begin		
+      portf10 <= '0';
       wait for clk32_period*10;
 
+      portf10 <= '1';
+      
+      wait for clk32_period*200;
+      portf10 <= '0';
+      wait for clk32_period*10;
+
+      portf10 <= '1';
       -- insert stimulus here 
 
       wait;

@@ -50,17 +50,20 @@ architecture behavioral of drum1 is
       ready : out std_logic := '1'
     );
   end component;
-
+  
+  type play_state is (state_waiting, state_playing, state_played);
+  type send_state is (state_load_data, state_write_data);
+  
   signal clk_midi : std_logic;
   signal load : std_logic;
   signal value : std_logic_vector(7 downto 0);
   signal ready : std_logic;
   
   signal wr_data : std_logic_vector(7 downto 0);
-  signal wr : std_logic;
+  signal wr : std_logic := '0';
   signal wr_full : std_logic := '0';
   signal rd_data : std_logic_vector(7 downto 0);
-  signal rd : std_logic;
+  signal rd : std_logic := '0';
   signal rd_empty : std_logic := '1';
 begin
   fifo : dcfifo
@@ -81,8 +84,8 @@ begin
 
   div : clock_divider 
   generic map (
-    divisor => 500
---    divisor => 1
+--    divisor => 500
+    divisor => 1
   )
   port map (
     clk_in => clk32,
@@ -101,23 +104,44 @@ begin
   
   process(clk50)
     variable byte : integer range 0 to 140 := 0;
+    variable play : play_state := state_waiting;
+    variable state: send_state := state_load_data;
   begin
     -- if fifo isn't full, write next byte to fifo
     if rising_edge(clk50) then
-      if wr_full = '0' and portf10 = '1' then
-        if byte = 0 then
-          wr_data <= "10010000" after 1 ns;
-        elsif byte = 1 then
-          wr_data <= "01000101" after 1 ns;
-        elsif byte = 2 then
-          wr_data <= "00100110" after 1 ns;
-        end if;
-        wr <= '1' after 1 ns;
-        byte := byte + 1;
-        if byte = 3 then
-          byte := 0;
-        end if;
-      end if;
+      case play is
+        when state_waiting =>
+          if portf10 = '1' then
+            play := state_playing;
+            state := state_load_data;
+            byte := 0;
+          end if;
+        when state_playing =>
+          if wr_full = '0' then
+            case state is
+              when state_load_data =>
+                if byte = 0 then
+                  wr_data <= "10010000" after 1 ns;
+                elsif byte = 1 then
+                  wr_data <= "01000101" after 1 ns;
+                elsif byte = 2 then
+                  wr_data <= "00100110" after 1 ns;
+                end if;
+                state := state_write_data;
+              when state_write_data =>
+                wr <= '1' after 1 ns;
+                byte := byte + 1;
+                state := state_load_data;
+                if byte = 3 then
+                  play := state_played;
+                end if;
+            end case;
+          end if;
+        when state_played =>
+          if portf10 = '0' then
+            play := state_waiting;
+          end if;
+      end case;
       
       if wr = '1' then
         wr <= '0' after 1 ns;
