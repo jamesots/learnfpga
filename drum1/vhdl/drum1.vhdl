@@ -51,6 +51,14 @@ architecture behavioral of drum1 is
     );
   end component;
   
+  component debounce is
+    port ( 
+      clk : in std_logic;
+      din : in std_logic;
+      dout : out std_logic
+    );
+  end component;
+  
   type play_state is (state_waiting, state_playing, state_played);
   type send_state is (state_load_data, state_write_data);
   
@@ -59,6 +67,8 @@ architecture behavioral of drum1 is
   signal value : std_logic_vector(7 downto 0);
   signal ready : std_logic;
   
+  signal hit : std_logic;
+  
   signal wr_data : std_logic_vector(7 downto 0);
   signal wr : std_logic := '0';
   signal wr_full : std_logic := '0';
@@ -66,6 +76,13 @@ architecture behavioral of drum1 is
   signal rd : std_logic := '0';
   signal rd_empty : std_logic := '1';
 begin
+  deb : debounce
+    port map ( 
+      clk => clk50,
+      din => portf10,
+      dout => hit
+    );
+
   fifo : dcfifo
     generic map (
       width => 8,
@@ -84,8 +101,8 @@ begin
 
   div : clock_divider 
   generic map (
---    divisor => 500
-    divisor => 1
+    divisor => 500
+--    divisor => 1
   )
   port map (
     clk_in => clk32,
@@ -111,7 +128,7 @@ begin
     if rising_edge(clk50) then
       case play is
         when state_waiting =>
-          if portf10 = '1' then
+          if hit = '1' then
             play := state_playing;
             state := state_load_data;
             byte := 0;
@@ -138,7 +155,7 @@ begin
             end case;
           end if;
         when state_played =>
-          if portf10 = '0' then
+          if hit = '0' then
             play := state_waiting;
           end if;
       end case;
