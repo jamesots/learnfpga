@@ -6,7 +6,8 @@ entity drum1 is
   port (
     clk50 : in std_logic;
     clk32 : in std_logic;
-    portc11 : out std_logic
+    portc11 : out std_logic;
+    portf10 : in std_logic
   );
 end drum1;
 
@@ -103,13 +104,13 @@ begin
   begin
     -- if fifo isn't full, write next byte to fifo
     if rising_edge(clk50) then
-      if wr_full = '0' then
+      if wr_full = '0' and portf10 = '1' then
         if byte = 0 then
           wr_data <= "10010000" after 1 ns;
         elsif byte = 1 then
           wr_data <= "01000101" after 1 ns;
         elsif byte = 2 then
-          wr_data <= "01000101" after 1 ns;
+          wr_data <= "00100110" after 1 ns;
         end if;
         wr <= '1' after 1 ns;
         byte := byte + 1;
