@@ -7,7 +7,7 @@ uses standard make files, and the VHDL stuff, which uses hdlmake to generate mak
 and also relies on Xilinx ISE being installed. I'm doing all this stuff in Linux.
 
 I should mention that this isn't intended as a resource for learning VHDL, but rather a log
-of me learning VHDL. If I go back to an old project to improve it, I will create a new project
+of my VHDL learning experience. If I go back to an old project to improve it, I will create a new project
 for the updated version, so be very careful about reusing any of this code, as it may
 well be broken, or at least badly implemented.
 
