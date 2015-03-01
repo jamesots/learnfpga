@@ -18,7 +18,7 @@ CFLAGS = $(BASICOPTS)
 TARGETDIR_termfpga=dist
 
 
-all: $(TARGETDIR_termfpga)/termfpga
+all: $(TARGETDIR_termfpga)/termfpga $(TARGETDIR_termfpga)/termfpgaout
 
 
 ## Target: termfpga
@@ -28,22 +28,34 @@ USERLIBS_termfpga = -lftdi -lncurses $(SYSLIBS_termfpga)
 DEPLIBS_termfpga =   
 LDLIBS_termfpga = $(USERLIBS_termfpga)
 
+OBJS_termfpgaout =  \
+	$(TARGETDIR_termfpga)/termfpgaout.o
+USERLIBS_termfpgaout = -lftdi -lncurses $(SYSLIBS_termfpgaout) 
+DEPLIBS_termfpgaout =   
+LDLIBS_termfpgaout = $(USERLIBS_termfpgaout)
+
 
 # Link or archive
 $(TARGETDIR_termfpga)/termfpga: $(TARGETDIR_termfpga) $(OBJS_termfpga) $(DEPLIBS_termfpga)
 	$(LINK.c) $(CFLAGS_termfpga) $(CPPFLAGS_termfpga) -o $@ $(OBJS_termfpga) $(LDLIBS_termfpga)
+$(TARGETDIR_termfpga)/termfpgaout: $(TARGETDIR_termfpgaout) $(OBJS_termfpgaout) $(DEPLIBS_termfpgaout)
+	$(LINK.c) $(CFLAGS_termfpgaout) $(CPPFLAGS_termfpgaout) -o $@ $(OBJS_termfpgaout) $(LDLIBS_termfpgaout)
 
 
 # Compile source files into .o files
 $(TARGETDIR_termfpga)/termfpga.o: $(TARGETDIR_termfpga) termfpga.c
 	$(COMPILE.c) $(CFLAGS_termfpga) $(CPPFLAGS_termfpga) -o $@ termfpga.c
+$(TARGETDIR_termfpga)/termfpgaout.o: $(TARGETDIR_termfpgaout) termfpgaout.c
+	$(COMPILE.c) $(CFLAGS_termfpgaout) $(CPPFLAGS_termfpgaout) -o $@ termfpgaout.c
 
 
 #### Clean target deletes all generated files ####
 clean:
 	rm -f \
 		$(TARGETDIR_termfpga)/termfpga \
-		$(TARGETDIR_termfpga)/termfpga.o
+		$(TARGETDIR_termfpga)/termfpga.o \
+		$(TARGETDIR_termfpga)/termfpgaout \
+		$(TARGETDIR_termfpga)/termfpgaout.o
 	rm -f -r $(TARGETDIR_termfpga)
 
 

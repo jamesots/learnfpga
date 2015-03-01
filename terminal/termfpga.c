@@ -38,6 +38,8 @@ int main()
     noecho();
     nodelay(stdscr, TRUE);
     keypad(stdscr, TRUE);
+    idlok(stdscr, TRUE);
+    scrollok(stdscr, TRUE);
     
     printw("\nType to send to Z80:\n");
     printw("Press END to end:\n");
@@ -51,7 +53,13 @@ int main()
         if (c == ERR) {
             i = ftdi_read_data(&ftdic, &buf[0], 1);
             if (i > 0) {
-                printw("%c", buf[0]);
+		if (buf[0] < 32) {
+                    printw("<%d>", buf[0]);
+		} else if (buf[0] > 126) {
+		    printw("<%d>", buf[0]);
+		} else {
+                    printw("%c", buf[0]);
+                }
             }
             continue;
         }
