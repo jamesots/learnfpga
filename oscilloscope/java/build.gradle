@@ -1,0 +1,58 @@
+apply plugin: 'java'
+apply plugin: 'c'
+
+sourceCompatibility = 1.8
+version = '1.0'
+
+task wrapper(type: Wrapper) {
+  gradleVersion = '2.3'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
+
+task javah {
+    String inputClass = 'com.jamesots.libftdi.LibFtdi';
+    String inputClassPath = inputClass.replaceAll('\\.', '/')+".class"
+    String outputFile = "${buildDir}/generated/LibFtdi.h"
+    inputs.file sourceSets.main.output.asFileTree.matching {
+        include inputClassPath
+    }
+    outputs.file outputFile
+    doLast {
+        ant.javah(class: inputClass, outputFile: outputFile, classpath:sourceSets.main.output.asPath)
+    }
+
+}
+
+classes.finalizedBy javah
+javah.dependsOn classes
+build.dependsOn javah
+
+model {
+    components {
+        LibFtdi(NativeLibrarySpec) {
+            sources {
+                c {
+                    source {
+                        srcDir "src/main/c"
+                        include "**/*.c"
+                    }
+                    exportedHeaders {
+                        srcDir "build/generated"
+                    }
+                }
+            }
+
+            binaries.all {
+                cCompiler.args "-shared",  "-I/usr/lib/jvm/java-8-oracle/include", "-I/usr/lib/jvm/java-8-oracle/include/linux"
+                linker.args "-L/xyz", "-lftdi"
+            }
+        }
+    }
+}
